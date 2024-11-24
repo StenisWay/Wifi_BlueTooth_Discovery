@@ -1,0 +1,14 @@
+<!-- res/drawable/circular_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:shape="oval"
+    tools:ignore="ExtraText"> <!-- 设置形状为椭圆/圆形 -->
+    <solid android:color="#B9B973"/> <!-- 填充颜色 -->
+    <size android:width="100dp" android:height="100dp"/> <!-- 设置尺寸 -->
+    <gradient
+        android:startColor="#FFFFFF"
+        android:endColor="#B9B973"
+        android:type="radial"
+        android:gradientRadius="60dp"/>
+</shape>
+
